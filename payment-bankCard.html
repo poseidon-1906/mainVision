@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form - Sagar Developer</title>
+    <link rel="stylesheet" href="style/payement-bankCard - Copie.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Formulaire de Paiement</h2>
+        <form action="" method="post">
+            <!--Account Information Start-->
+            <h4>Vos informations</h4>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Noms" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <div class="input_box">
+                    <input type="text" placeholder="Numero de Carte" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="email" placeholder="Address Email" required class="name">
+                    <i class="fa fa-envelope icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Whatsapp" required class="name">
+                    <img src="images/whatsapp_24px.png" alt="">
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Ville" required class="name">
+                    <i class="fa fa-institution icon"></i>
+                </div>
+            </div>
+            <!--Account Information End-->
+
+
+            <!--DOB & Gender Start-->
+            
+                <div class="image-container">
+                  <img src="images/visa.png" alt="">
+                  <img src="images/master.png" alt="">
+                  <img src="images/paypal.png" alt="">
+                  <img src="images/discover.png" alt="">
+                </div>
+               
+            <!--DOB & Gender End-->
+
+
+            <!--Payment Details Start-->
+            <div class="input_group">
+                <div class="input_box">
+                    <h4>Détails de paiement</h4>
+                    <input type="radio" name="pay" class="radio" id="bc1" checked>
+                    <label for="bc1"><span>
+                          </i>Carte de crédit</span></label>
+                    <input type="radio" name="pay" class="radio" id="bc2">
+                    <label for="bc2"><span>
+                        <a href="payement-mobile.html">Paiment par mobile</a></span></label>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="tel" name="" class="name" placeholder="Numero de Carte 1111-2222-3333-4444" required>
+                    <i class="fa fa-credit-card icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="tel" name="" class="name" placeholder="Card CVC 632" required>
+                    <i class="fa fa-user icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <div class="input_box">
+                        <input type="number" placeholder="Mois Exp" required class="name">
+                        <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <input type="number" placeholder="Date Exp" required class="name">
+                    <i class="fa fa-calendar-o icon" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="input_box">
+                <input type="number" placeholder="Entrez le montant" required class="name">
+                <i class="fa fa-money icon" aria-hidden="true"></i>
+            </div>
+            <!--Payment Details End-->
+
+            <div class="input_group">
+                <div class="input_box">
+                    <button type="submit">Acheter Maintenant</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
