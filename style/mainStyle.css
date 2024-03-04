@@ -21,23 +21,23 @@ body{
 
 }
 
-@media (max-width:700px) {
+@media (max-width:900px) {
  
     .part1 img{
         display: none;
     }
  .part1  .overall{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         column-gap:4px;
         padding-left: 10%;
         padding-right: 10%;
     
     }
-    .part1 p{
-        font-size: 180px;
-        line-height: 0px;
-        color: #fdf8f8;
+    .part1 .overall p{
+        font-size: 3rem;
+        line-height: 4rem;
+        color: #eeeeee;
     
     }
     .some-det{
@@ -116,19 +116,29 @@ body{
 
     border: none;
     border-radius: 40px;
-    font-size: 45px;
     height: 12rem;
-    padding: 5px 20px 5px 20px;
+    padding-bottom: 35px;
+    padding-top: 25px;
     width: 30rem;
     transition: ease 0.5s;
     position: relative;
     left: 30%;
     margin-top: 20px;
+    box-shadow: 3px 6px 3px rgba(0, 0, 0, 0.137);
+}
+.some-det .prix-btn button a{
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size:3.5rem;
+    font-family: 'RockfordSans-Bold',sans-serif;
+
 }
 footer{
     background-color: var(--black);
     margin-top: 80px;
-    height: fit-content;
+    height: 250px;
     width: 72.5rem;
     padding-top: 10px;
     font-size: 35px;
@@ -161,7 +171,7 @@ margin-bottom: 30px;
 .part1 #op{
     margin-top: 6px;
     font-size: 76px;
-    color: rgba(196, 192, 192, 0.972);
+    color: rgba(61, 61, 61, 0.972);
     line-height: 60px;
 }
 .part1 #prix{
@@ -170,40 +180,35 @@ margin-bottom: 30px;
     font-weight: bolder;
     margin-top: -8px;
     margin-bottom: 0px;
+}
+
+}
+.part1{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #000000dc;
+    color: #fff;
+}
+.Overall-next{
+    display: flex;
+    gap: 8%;
    
 }
-
+.overall h1{
+    color: var(--marineB);
 }
 
-.part1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
-    color:#fff;
-    padding: 30px;
-    width: 100%;
-    background-color:var(--black);
-}
 
-.part1 button{
-    height: 110px;
-    width: 290px;
-    border-radius: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-.part1 button a{
-    font-size: 25px;
-}
+
+
 button{
 
     background-color:var(--marineB);
     border: none;
     border-radius: 20px;
-    height: 60px;
-    width: 240px;
+    height: 80px;
+    width: 250px;
     transition: ease 0.5s;
     margin-top: 13px;
 }
@@ -216,50 +221,31 @@ button a{
     font-weight: bolder;
     text-decoration: none;
     letter-spacing: 2px;
+    font-size:1.5rem;
     font-family: 'RockfordSans-Bold',sans-serif;
 
 }
-.sub img{
-    border-radius: 300px;
-    height: 780px;
-    box-shadow: 2px 2px 3px 5px rgba(255, 255, 255, 0.08);
-    position: relative;
-    top: 30px;
-    left: 15%;
-}
 
-.part1 p{
-    font-size: 18px;
-    line-height: 30px;
-}
-.part1 h1{
-    color:var(--blue);
-    font-size: 40px;
-}
-.overall{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-    padding: 50px;
-    margin-left: 20px;
 
-}
+
+
+
+
 span{
     font-weight: bolder;
-    font-size: 65px;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 #op{
-    margin-top: 6px;
-    font-size: 46px;
-    color: rgba(196, 192, 192, 0.972);
+    font-size: 30px;
+    line-height: 5px;
+    color: ghostwhite;
 }
 #prix{
-    font-size:50px;
-    color: var(--blue);
-    font-weight: bolder;
-    margin-top: -8px;
-   
+    
+   font-size: 60px;
+   line-height: 10px;
+   color: var(--blue);
 }
 .some-det button{
     color: #ffff;
@@ -273,13 +259,9 @@ span{
 #acn-prix{
     text-decoration: line-through;
     color:rgb(82, 81, 81);
-    font-size: 48px;
-    margin-left: 400px;
-    margin-top: -10px;
-    width: 250px;
-     /* position: relative;
-    left: 90%;
-    top:-40px;  */
+    font-size: 40px;
+    position: relative;
+    left: 20%;
 
 }
 
@@ -325,6 +307,11 @@ li{
 }
 /*-----------------------------------------------------------------  */
 
+@media (max-width:800px){
+    .more1{
+       
+    }  
+}
 .more1{
     position: absolute;
      left: 0%;
@@ -539,31 +526,45 @@ pointer-events: auto;
     margin-top: 200px;
 }
 @media (max-width:700px){
-  .some-det  .last img{
-       display: none;
+    .some-det  .last img{
+         display: none;
+      }
+      .some-det .power1{
+          margin-left: 80%;
+         padding-top: 10px;
+      }
+    .some-det  .last{
+      padding-left: 60px;
+      height: fit-content;
+      padding-bottom: 0%;
+    }
+    .some-det .intros h1{
+      font-size: 85px;
+      text-align: center;
+      line-height: 85px;
+      letter-spacing: 3px;
+      margin-left: 7%;
+    }
+    .some-det h1{
+      font-size: 65px;
+      text-align: center;
+      color: var(--bluenoir);
+    }
+    .power1 #prix{
+        font-size: 60px;
+        font-weight: bolder;
+        line-height: 4.5rem;
+        margin-top: 3px;
+    }
+    .power1 #op{
+        font-size: 50px;
+        line-height: 3rem;
+       
     }
     .some-det .power1{
-        margin-left: 80%;
-       padding-top: 10px;
+       margin-left:50%;
     }
-  .some-det  .last{
-    padding-left: 60px;
-    height: fit-content;
-    width: ;
-  }*
-  .some-det .intros h1{
-    font-size: 85px;
-    text-align: center;
-    line-height: 85px;
-    letter-spacing: 3px;
-    margin-left: 7%;
   }
-  .some-det h1{
-    font-size: 65px;
-    text-align: center;
-    color: var(--bluenoir);
-  }
-}
 
 .last{
     height: 320px;
@@ -606,13 +607,14 @@ pointer-events: auto;
 
 
 .over-main{
-    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
    column-gap: 30px;
    background-color: transparent;
    padding: 30px;
    color: black;
    font-size: 23px;
+   justify-content: center;
 
 }
 
@@ -632,6 +634,7 @@ pointer-events: auto;
     box-shadow: -16px 16px 14px rgba(0, 0, 0, 0.05);
    padding: 10px;
    padding-bottom: 35px;
+   flex: 1;
    height: fit-content;
    text-transform: uppercase;
 
