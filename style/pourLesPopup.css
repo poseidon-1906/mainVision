@@ -109,17 +109,17 @@ height: 100vh;
   left: 80%;
   right: 10%;
   top: 385%;
-  width: 100vw;
+  width: 20rem;
   height: 140vh;
   
 }
 .more .pop-upbox{
-  position: relative;
-  left: 80%;
-  right: 10%;
-  top: 110%;
-  width: 100vw;
-  height: 100vh;
+  position: absolute;
+  left: 40%;
+  right: 50%;
+  top: 100%;
+  width: 45rem;
+  height: 110vh;
 }
 .more .pop-upbox h3{
  line-height: 80px;
