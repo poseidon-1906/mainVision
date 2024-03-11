@@ -86,6 +86,56 @@ opacity: 1;
 pointer-events: auto;
 
 }
+/*------------------------------------------------------------------------  */
+@media(max-width:800px){
+ .more3 .pop-up3{
+position: relative;
+left: 80%;
+right: 10%;
+top: 525%;
+width: 100vw;
+height: 100vh;
+}
+.more1 .pop-up1{
+  position: relative;
+  left: 80%;
+  right: 10%;
+  top: 215%;
+  width: 100vw;
+  height: 100vh;
+}
+.more2 .pop-up2{
+  position: relative;
+  left: 80%;
+  right: 10%;
+  top: 385%;
+  width: 100vw;
+  height: 140vh;
+  
+}
+.more .pop-upbox{
+  position: relative;
+  left: 80%;
+  right: 10%;
+  top: 110%;
+  width: 100vw;
+  height: 100vh;
+}
+.more .pop-upbox h3{
+ line-height: 80px;
+}
+
+.more1 .pop-up1{
+  position: relative;
+  left: 70%;
+  right: 10%;
+  top: 250%;
+  height: 120vh;
+
+}
+}
+
+/* -------------------------------------------------------------------- */
 .more3{
    position: absolute; 
    left: 0%;
@@ -94,7 +144,6 @@ pointer-events: auto;
   width: 100%;
   height: 100%;
   display: flex;
- 
   justify-content: center;
   align-items: center;
   text-align: center;

@@ -139,7 +139,7 @@ footer{
     background-color: var(--black);
     margin-top: 80px;
     height: 250px;
-    width: 72.5rem;
+    width: 72rem;
     padding-top: 10px;
     font-size: 35px;
     color: #f0f0f0;
@@ -307,11 +307,7 @@ li{
 }
 /*-----------------------------------------------------------------  */
 
-@media (max-width:800px){
-    .more1{
-       
-    }  
-}
+
 .more1{
     position: absolute;
      left: 0%;
