@@ -89,40 +89,45 @@ pointer-events: auto;
 /*------------------------------------------------------------------------  */
 @media(max-width:800px){
  .more3 .pop-up3{
-position: relative;
-left: 80%;
-right: 10%;
+position: absolute;
+left: 40%;
+right: 50%;
 top: 525%;
 width: 100vw;
 height: 100vh;
 }
 .more1 .pop-up1{
-  position: relative;
-  left: 80%;
-  right: 10%;
+  position: absolute;
+  left: 40%;
+  right: 50%;
   top: 215%;
   width: 100vw;
   height: 100vh;
 }
 .more2 .pop-up2{
   position: relative;
-  left: 80%;
-  right: 10%;
-  top: 385%;
+  left: 40%;
+  right: 50%;
+  top: 35%;
   width: 20rem;
   height: 140vh;
+  background-color: blue;
   
 }
 .more .pop-upbox{
   position: absolute;
   left: 40%;
-  right: 50%;
+  right: 250%;
   top: 100%;
   width: 45rem;
   height: 110vh;
+ 
+}
+.more .pop-upbox p{
+  font-size: 55px;
 }
 .more .pop-upbox h3{
- line-height: 80px;
+ line-height: 60px;
 }
 
 .more1 .pop-up1{
